@@ -1,4 +1,6 @@
-Instructions for SaaS workshop workaround
+## Workaround Instructions for SaaS Workshop 
+
+**Copy and Paste below commands into the workshop provided VS Code terminal**
 
 ```bash
 sed -i 's/rds.AuroraPostgresEngineVersion.VER_15_4/rds.AuroraPostgresEngineVersion.VER_15_8/g' "/Workshop/aws-saas-tenant-usage-and-cost-attribution/saas-app-plane/product-review-service/cdk/lib/RdsPostgresConstruct.ts" && \
