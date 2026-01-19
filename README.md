@@ -9,5 +9,5 @@ cd "/Workshop/aws-saas-tenant-usage-and-cost-attribution/saas-app-plane/product-
 npm install aws-cdk@latest && \
 cd "/Workshop/aws-saas-tenant-usage-and-cost-attribution/saas-app-plane/product-review-service/scripts/" && \
 ./deploy.sh 1
-cd ../../
+cd ../../../
 ```
